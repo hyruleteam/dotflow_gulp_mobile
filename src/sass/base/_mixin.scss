@@ -1,6 +1,11 @@
 @function rem($px) {
     @return $px / $base-font-size * 1rem;
 }
+
+@mixin fonts($size){
+    font-size:$size; /*px*/
+}
+
 @mixin text-line($num) {
     display: -webkit-box;
     -webkit-line-clamp: $num;
