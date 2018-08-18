@@ -1,3 +1,5 @@
 .m-hd{
-    font-size: 24px;
+    width: 100px;
+    height: 100px;
+    @include fonts(24px);
 }
